@@ -102,7 +102,9 @@ class Play extends Phaser.Scene {
             this.player.play('death', true).once('animationcomplete', () => {
                 this.add.text(game.config.width/2, game.config.height/2 + 3, 'GAME OVER', scoreConfig).setOrigin(0.5)
                 this.add.text(game.config.width/2, game.config.height/2 + 64, `YOU SWAM ${this.p1Score} M`, scoreConfig).setOrigin(0.5)
-                this.add.text(game.config.width/2, game.config.height/2 + 96, 'Press (R) to Restart or ← for Menu', scoreConfig).setOrigin(0.5)
+                this.add.text(game.config.width/2, game.config.height/2 + 96, 'Art and Music made by Nate SFX from Splice', scoreConfig).setOrigin(0.5)
+
+                this.add.text(game.config.width/2, game.config.height/2 + 128, 'Press (R) to Restart or ← for Menu', scoreConfig).setOrigin(0.5) 
                 this.gameDone = true
             
 
@@ -128,7 +130,9 @@ class Play extends Phaser.Scene {
             this.player.play('death', true).once('animationcomplete', () => {
                 this.add.text(game.config.width/2, game.config.height/2 + 32, 'GAME OVER', scoreConfig).setOrigin(0.5)
                 this.add.text(game.config.width/2, game.config.height/2 + 64, `YOU SWAM ${this.p1Score} M`, scoreConfig).setOrigin(0.5)
-                this.add.text(game.config.width/2, game.config.height/2 + 96, 'Press (R) to Restart or ← for Menu', scoreConfig).setOrigin(0.5)
+                this.add.text(game.config.width/2, game.config.height/2 + 96, 'Art and Music made by Nate SFX from Splice', scoreConfig).setOrigin(0.5)
+
+                this.add.text(game.config.width/2, game.config.height/2 + 128, 'Press (R) to Restart or ← for Menu', scoreConfig).setOrigin(0.5)
                 this.gameDone = true
                 
             

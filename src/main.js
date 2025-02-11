@@ -1,13 +1,10 @@
 // Code: Endless Runner: 
 // Name: Nathan Deadwyler
 // Date: 1/31/2025
-// Description: This is a simple endless runner game where the player must avoid obstacles and collect ...... to increase their score.
-//The creative tilt is the unique 2 button control scheme that tilts the player up and down to avoid obstacles.
+// Description: This is a simple endless swimmer game where the player must avoid obstacles and go as far as they can
+//The creative tilt is the unique 2 button control scheme that tilts the player up and down to avoid obstacles. The control scheme is meant to feel relativerly slow, because in the ocean, whales and sharks are huge! I also make music so this was a fun opportunity to make something that felt oceany.
+// It took maybe 18 hours total
 
-
-
-// Pixel Art Diver by Daniel Kole Productions
-//32x32 Animated Shark Sprite by Sergeant_Slash
 "use strict"
 
 let config = {
